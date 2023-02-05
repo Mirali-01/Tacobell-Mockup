@@ -1,0 +1,296 @@
+/* Note all pseudo divs are placeholders for the fixed positioned divs */
+
+/* Having a hard time adding a white background behind the top navbars */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topNavbar {
+    /* border: solid red; */
+    background-color: white;
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    width: 97%;
+    margin-left: 0.3%;
+}
+
+
+.pickup {
+    /* border: solid red; */
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 97%;
+    margin-left: 0.3%;
+}
+
+.text {
+    color: #585858;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+.startOrder {
+    border: solid #501098;
+    background-color: #501098;
+    color: white;
+    margin-top: 15px;
+    margin-right: 85px;
+    height: 55%;
+    width: 30%;
+    cursor: pointer;
+}
+
+.startOrder:hover {
+    background-color: #501098;
+}
+
+.pseudoNavbar {
+    height: 10vh;
+    /* margin: 10px; */
+    width: 95%;
+    margin-left: 0.5%;
+}
+
+
+.pseudoPickup {
+    height: 10vh;
+    /* margin: 10px; */
+    width: 95%;
+    margin-left: 0.5%;
+}
+
+.element {
+    /* border:solid peru; */
+    margin: 12px;
+}
+
+.navOne {
+    /* border: solid brown; */
+    display: flex;
+    width: 30%;
+    justify-content: left;
+}
+
+.navOneElem {
+    /* border: solid black; */
+    height: 115%;
+    width: 130%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.logIn {
+    border: solid gray;
+    color: gray;
+    background-color: white;
+    margin-right: 50px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    cursor: pointer
+}
+
+.logIn:hover {
+    border: solid #501098;
+    color: #501098;
+}
+
+.navTwo {
+    /* border: solid brown; */
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.navTwoElem {
+    /* border: solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+.navThree {
+    /* border: solid brown; */
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+.navThreeElem {
+    /* border: solid black; */
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.navThreeElem:hover {
+    border: solid #501098;
+    color: #501098;
+}
+
+.navThreeImg {
+    margin-top: 3px;
+    height: 80%;
+    width: 80%;
+}
+
+.mainContainer {
+    /* border: solid purple; */
+    height: 300vh;
+    margin-top: 5px;
+    display: flex;
+}
+
+.leftNavbar {
+    /* border: solid green; */
+    height: 60%;
+    width: 18%;
+    margin-top: 1.5%;
+    margin-right: 3%;
+    position: fixed;
+}
+
+.menu {
+    margin-top: 2px;
+    width: 100%;
+    height: 18%;
+    font-size: 10px;
+    /*jaime taught me about skewY(+/- degrees)*/
+    transform: skewY(-10deg);
+    background: #d8d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu:hover {
+    cursor: pointer;
+    background: black;
+    color: whitesmoke;
+}
+
+.menu h3 {
+    text-align: center;
+}
+
+.main {
+    /* border: solid maroon; */
+    /* background-color: brown; */
+    height: 100%;
+    width: 78%;
+    margin-left: 20%;
+}
+
+.topSpace {
+    height: 40vh;
+}
+
+.section1Container {
+    /* border: solid brown; */
+    height: 95vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-image: url("https://www.tacobell.com/_static/web/images/home/hero-2023-E02-FreeCrispyMeltTacow10min-Mobile.jpg");
+    background-size: cover;
+}
+
+.blackbean {
+    font-size: 25px;
+}
+
+.belowBlackbean {
+    font-size: 15px;
+}
+
+.rewards {
+    border: solid #501098;
+    color: #501098;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 1%;
+    padding: 15px;
+    width: 55%;
+    cursor: pointer;
+}
+
+.rewards:hover {
+    color: white;
+    background-color: #501098
+}
+
+.terms {
+    font-size: 10px;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.whatsHot {
+    /* border: solid black; */
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.section2Container,
+.section3Container,
+.section4Container,
+.section5Container {
+    /* border: solid red; */
+    text-align: center;
+}
+
+.img {
+    height: 80%;
+    width: 98%;
+    border-radius: 2%;
+    margin: -10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.belowHeading {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.orderNow {
+    border: solid #501098;
+    background-color: #501098;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 1%;
+    padding: 15px;
+    width: 55%;
+    cursor: pointer;
+}
+
+.orderNow:hover {
+    background-color: #501098;
+}
+
+.termsOne {
+    font-size: 12px;
+    color: #585858;
+}
+
+footer {
+    /* border: solid darkblue; */
+    height: 10vh;
+    width: 100%;
+    /* margin: 10px; */
+    margin-top: 5px;
+}
